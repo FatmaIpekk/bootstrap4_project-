@@ -1,0 +1,51 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fafafa;
+    color: #000;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #9b59b6;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #9b59b6, #d7bde2);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
